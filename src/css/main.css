@@ -23,7 +23,9 @@ a:hover {
 .header-container {
   margin-top: 20px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  text-decoration: none;
+}
 
 .title {
   width: 60%;
@@ -37,7 +39,7 @@ a:hover {
   letter-spacing: 0.2px;
   padding: 20px 0px 20px 0px;
   text-align: center;
-  background: #181818;
+  background: #333131;
   border-radius: 14px; }
 
 .song-list-container {
@@ -64,8 +66,34 @@ a:hover {
   font-size: 32px;
   font-weight: 500;
   color: #ffffff;
-  background: #3a3a3a;
-  border-radius: 14px; }
+  background: #636363;
+  border-radius: 10px; }
+
+.song {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  font-family: 'Noto Sans TC', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #636363;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+div {
+  font-family: 'Noto Sans TC', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #000000;
+}
 
 .background {
   top: 0;
