@@ -25,6 +25,7 @@ a:hover {
   display: flex;
   justify-content: center;
   text-decoration: none;
+  color: #ffffff !important;
 }
 
 .title {
@@ -32,7 +33,7 @@ a:hover {
   font-family: 'Noto Sans TC', 'Helvetica Neue', Arial, sans-serif;
   font-size: 48px;
   font-weight: 500;
-  color: #ffffff;
+  color: #ffffff !important;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
